@@ -17,7 +17,7 @@
     },
     "headerImage": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "header-image.header-image"
     }
   }
