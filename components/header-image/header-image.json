@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_header_image_header_images",
+  "info": {
+    "name": "headerImage",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "desktopImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "mobileImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

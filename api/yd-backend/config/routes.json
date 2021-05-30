@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/yd-backend",
+      "handler": "yd-backend.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/yd-backend",
+      "handler": "yd-backend.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/yd-backend",
+      "handler": "yd-backend.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
