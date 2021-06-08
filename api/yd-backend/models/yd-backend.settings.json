@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "yd_backends",
   "info": {
-    "name": "yd-backend",
+    "name": "YoungDetectivesSite",
     "description": ""
   },
   "options": {
@@ -18,7 +18,23 @@
     "headerImage": {
       "type": "component",
       "repeatable": false,
-      "component": "header-image.header-image"
+      "component": "yd-components.header-image"
+    },
+    "Members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "yd-components.members"
+    },
+    "AboutSectionHeading": {
+      "type": "string"
+    },
+    "SingleShows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "yd-components.shows"
+    },
+    "showsHeading": {
+      "type": "string"
     }
   }
 }

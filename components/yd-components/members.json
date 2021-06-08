@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_header_image_members",
+  "info": {
+    "name": "members",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Instrument": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Pic": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

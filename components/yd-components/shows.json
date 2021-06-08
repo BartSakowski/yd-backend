@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_yd_components_shows",
+  "info": {
+    "name": "Shows",
+    "icon": "icons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nameOfEvent": {
+      "type": "string"
+    },
+    "dateOfEvent": {
+      "type": "date"
+    },
+    "timeOfEvent": {
+      "type": "time"
+    },
+    "additionalInfo": {
+      "type": "text"
+    },
+    "eventFlyer": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "venue": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "ageRestrictions": {
+      "type": "enumeration",
+      "enum": [
+        "allAges",
+        "seventeenPlus",
+        "eighteenPlus",
+        "twentyOnePlus"
+      ]
+    },
+    "venueAddress": {
+      "type": "string"
+    },
+    "venueCity": {
+      "type": "string"
+    },
+    "venueState": {
+      "type": "string"
+    },
+    "venueZip": {
+      "type": "string"
+    }
+  }
+}
